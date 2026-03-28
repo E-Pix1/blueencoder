@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Web Encoder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Web Encoder</h1>
+
+<div class="container">
+
+    <label>Stream URL (RTMP or SRT)</label>
+    <input id="streamUrl" placeholder="rtmp://... or srt://...">
+
+    <label>Capture Source</label>
+    <button id="screenBtn">Capture Screen/Window</button>
+
+    <label>Status</label>
+    <div id="status">Idle</div>
+
+    <button id="startBtn">Start Streaming</button>
+    <button id="stopBtn">Stop</button>
+
+</div>
+
+<script src="config.js"></script>
+<script src="encoder.js"></script>
+
+</body>
+</html>
